@@ -32,7 +32,7 @@ Security: SQL Injection Protection
 
 ## 🚀 Getting Started
 Clone the repository:
-git clone https://github.com/yourusername/GamoraLabs.git
+git clone https:[//github.com/yourusername/GamoraLabs.git](https://github.com/yash2118/GamoraLabs)
 
 Set up a virtual environment and install dependencies:
 pip install -r requirements.txt
