@@ -1,46 +1,74 @@
-# GamoraLabs
-Gamora Labs - AI Academic Assistant and Mentor-Mentee Platform
-🚀 Built at HackAI 2025 | Challenge by Nebula Labs (UT Dallas)
+# GamoraLabs — AI Academic Assistant & Mentor-Mentee Platform
+## Project Overview
+GamoraLabs is an AI-powered academic support platform. The platform helps students access academic information using natural language queries while also enabling peer-to-peer mentorship through a Mentor-Mentee matching system. Students can ask questions related to:
+- Courses
+- Professors
+- Grades
+- Room schedules
+using an AI-powered assistant connected to university data.
+## Why This Project?
+Students often need to navigate multiple university portals to access academic information, making the process inefficient and time-consuming. This project was built to:
+- Simplify access to academic resources
+- Provide AI-powered student assistance
+- Encourage collaborative learning through mentorship
+It combines AI, database systems, real-time APIs, and secure authentication into a single student-focused platform.
+## Problem Statement
+Students commonly face:
+- Difficulty accessing academic information quickly
+- fragmented university systems
+- Limited peer academic support
+GamoraLabs solves this by creating a centralized AI academic assistant, a mentor-mentee platform for easier academic guidance and collaboration.
+## Key Features
+### AI Academic Assistant
+- Uses Gemini 1.5 Pro to convert natural language into SQL queries
+- Retrieves real-time academic data through Nebula API
+- Supports queries related to courses, grades, professors, and room schedules
+### Mentor-Mentee Platform
+- Students can register as mentors
+- Share expertise and availability
+- Allow mentees to schedule academic guidance sessions
+### Security & Authentication
+- bcrypt password hashing for secure authentication
+- SQL injection protection for safe query execution
+### Interactive Frontend
+- Built with Streamlit for a simple and responsive user experience
+## Workflow
+User Query
+    ↓
+Gemini 1.5 Pro
+    ↓
+Natural Language → SQL
+    ↓
+Query Validation
+    ↓
+Nebula API / MySQL
+    ↓
+Results Displayed in Streamlit
 
-Gamora Labs is an AI-powered academic support platform designed to enhance the student experience at UT Dallas.
-It features an intelligent assistant that allows students to ask natural language questions about courses, professors, grades, and room schedules, along with a peer-to-peer Mentor-Mentee matching system for academic support.
+## Impact & Use Cases
+### Students
+- Faster access to academic information
+- Easier course and professor lookup
+- Peer mentorship opportunities
+### Universities
+- Improved student engagement
+- Centralized academic support system
+### Mentors & Mentees
+- Better academic collaboration
+- Personalized student guidance
+## Technologies Used
+| Category       | Technologies   |
+| -------------- | -------------- |
+| Frontend       | Streamlit      |
+| Backend        | MySQL          |
+| AI Integration | Gemini 1.5 Pro |
+| Programming    | Python         |
+| Data Handling  | Pandas         |
+| Authentication | bcrypt         |
 
-# ✨ Key Features
-## AI Academic Assistant:
-Leveraged Google's Gemini 1.5 Pro LLM to translate natural language queries into SQL.
-Accessed real-time academic data via Nebula Labs' Nebula API (CourseBook, Grades, Room Scheduling, Profiles).
-
-## Mentor-Mentee Matching Platform:
-Students can register as mentors, share expertise, set availability, and allow mentees to schedule guidance sessions.
-
-## Secure Authentication:
-User data and login credentials protected using bcrypt hashing.
-
-## Safe Query Execution:
-AI outputs validated and protected against SQL injection to maintain database security.
-
-## Streamlit Frontend:
-Simple, interactive, and mobile-responsive UI for students to easily interact with the system.
-
-# 🛠 Tech Stack
-Frontend/UI: Streamlit
-Backend: MySQL
-AI Integration: Gemini 1.5 Pro (LLM API)
-Data Handling: Python, Pandas
-Authentication: bcrypt
-Security: SQL Injection Protection
-
-## 🚀 Getting Started
-Clone the repository:
-git clone https:[Github](https://github.com/yash2118/GamoraLabs)
-
-Set up a virtual environment and install dependencies:
-pip install -r requirements.txt
-
-Configure your environment variables:
-Nebula API credentials
-Gemini API key
-
-MySQL Database URL
-Run the Streamlit app:
-streamlit run app.py
+## Conclusion
+GamoraLabs demonstrates how AI-powered systems can improve the student experience by simplifying access to academic information and enabling collaborative learning through mentorship. The project combines:
+- LLM-powered querying
+- Secure database interaction
+- Peer mentorship
+into a unified academic support platform.
