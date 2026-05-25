@@ -6,7 +6,7 @@ import re
 import bcrypt
 
 # --- Configuration ---
-genai.configure(api_key="AIzaSyDf5OVlcDYq6ZTO5bSlX_juje8EvE1rvVI")  # 🔐 Replace with your Gemini API key
+genai.configure(api_key="YOUR_API_KEY")  # 🔐 Replace with your Gemini API key
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
