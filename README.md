@@ -33,18 +33,7 @@ GamoraLabs solves this by creating a centralized AI academic assistant, a mentor
 ### Interactive Frontend
 - Built with Streamlit for a simple and responsive user experience
 ## Workflow
-User Query
-    ↓
-Gemini 1.5 Pro
-    ↓
-Natural Language → SQL
-    ↓
-Query Validation
-    ↓
-Nebula API / MySQL
-    ↓
-Results Displayed in Streamlit
-
+User Query -> Gemini 1.5 Pro -> Natural Language → SQL -> Query Validation -> Nebula API / MySQL -> Results Displayed in Streamlit
 ## Impact & Use Cases
 ### Students
 - Faster access to academic information
